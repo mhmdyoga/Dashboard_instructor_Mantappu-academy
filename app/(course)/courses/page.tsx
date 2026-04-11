@@ -259,6 +259,9 @@ const CoursesPage = () => {
                       <DropdownMenuItem >
                         <Link href={`/course/update/${course.id}`}>Edit</Link>
                       </DropdownMenuItem>
+                       <DropdownMenuItem >
+                        <Link href={`/course/${course.id}/quiz/create`}>Buat Quiz</Link>
+                      </DropdownMenuItem>
                       <DropdownMenuItem >
                         <Link href={`/course/details/${course.slug}`}>
                           Preview
