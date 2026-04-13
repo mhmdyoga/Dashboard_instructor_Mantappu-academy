@@ -262,6 +262,9 @@ const CoursesPage = () => {
                        <DropdownMenuItem >
                         <Link href={`/course/${course.id}/quiz/create`}>Buat Quiz</Link>
                       </DropdownMenuItem>
+                       <DropdownMenuItem >
+                        <Link href={`/course/${course.id}/videos/create`}>Buat Video Pembelajaran</Link>
+                      </DropdownMenuItem>
                       <DropdownMenuItem >
                         <Link href={`/course/details/${course.slug}`}>
                           Preview
