@@ -129,7 +129,7 @@ const CoursesPage = () => {
           }
         >
           <SelectTrigger className="w-[180px] text-black">
-            <SelectValue placeholder="Semua Kategori" />
+            <SelectValue placeholder="Kategori" />
           </SelectTrigger>
           <SelectContent>
             <SelectGroup>
@@ -151,13 +151,13 @@ const CoursesPage = () => {
           }
         >
           <SelectTrigger className="w-[180px] text-black">
-            <SelectValue placeholder="Semua Kategori" />
+            <SelectValue placeholder="Status" />
           </SelectTrigger>
           <SelectContent>
             <SelectGroup>
-              <SelectItem value="SEMUA">Status</SelectItem>
-              <SelectItem value="true">Published</SelectItem>
-              <SelectItem value="false">Draft</SelectItem>
+              <SelectItem value="SEMUA">SEMUA</SelectItem>
+              <SelectItem value="true">PUBLISHED</SelectItem>
+              <SelectItem value="false">DRAFT</SelectItem>
             </SelectGroup>
           </SelectContent>
         </Select>
