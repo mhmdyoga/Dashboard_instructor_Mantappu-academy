@@ -49,13 +49,6 @@ import { useAuth } from "@/src/hooks/auth/use-auth";
 const data = {
   navMain: [
     {
-      title: "Users",
-      url: "#",
-      icon: FileUser,
-      isActive: true,
-      items: [{ title: "Users", url: "/users" }],
-    },
-    {
       title: "Courses",
       url: "",
       icon: BookOpenIcon,
@@ -63,16 +56,7 @@ const data = {
         { title: "Buat", url: "/course/create" },
         { title: "Courses", url: "/courses" },
       ],
-    },
-    {
-      title: "Transactions",
-      url: "#",
-      icon: HandCoinsIcon,
-      items: [
-        { title: "Frequency Sell", url: "#" },
-        { title: "Months Sell", url: "#" },
-      ],
-    },
+    }
   ],
 };
 

@@ -61,7 +61,7 @@ const formatPrice = (price: number) => {
   }).format(price);
 };
 
-const CoursesPage = () => {
+const HomePage = () => {
   const router = useRouter();
     const { user, isAuthenticated } = useAuth();
 
@@ -145,7 +145,7 @@ const CoursesPage = () => {
           onValueChange={(value) =>
             setFilter((prev) => ({
               ...prev,
-              isPublished: value === "SEMUA" ? undefined : value === "true" ? true : false,
+              isPublished: value === "SEMUA" ? undefined : value === "true",
               page: 1,
             }))
           }
@@ -316,4 +316,4 @@ const CoursesPage = () => {
   );
 };
 
-export default CoursesPage;
+export default HomePage;

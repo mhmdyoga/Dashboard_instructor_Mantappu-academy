@@ -1,9 +1,9 @@
-import CoursesPage from "./(course)/courses/page";
+import HomePage from "@/components/pages/HomePage";
 
 export default function Home() {
   return (
     <div >
-     <CoursesPage/>
+     <HomePage/>
     </div>
   );
 }

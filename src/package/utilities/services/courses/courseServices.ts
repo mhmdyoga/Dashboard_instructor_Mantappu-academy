@@ -8,7 +8,7 @@ import { UpdateCourseTypes } from "@/src/hooks/course/useCourses";
 
 export const CourseServices = {
     getCourses: async(filters: CourseFilters = {}): Promise<PaginatedResult<Course>> => {
-            const {data} =  await api.get('/course/courses', {params: filters});
+            const {data} =  await api.get('/course/instructor/courses', {params: filters});
             return data;
     },
 
