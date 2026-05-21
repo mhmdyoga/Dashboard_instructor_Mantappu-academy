@@ -25,7 +25,6 @@ const CreateCourse = () => {
     useEffect(() => {
         if (user?.id) {
             setValue("instructorId", user.id)
-            console.log(user.id)
         }
     }, [user?.id]);
     

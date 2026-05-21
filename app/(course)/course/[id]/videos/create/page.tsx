@@ -9,7 +9,7 @@ import { UploadVideosSchema, UploadVideosType } from '@/src/package/schema/video
 import { zodResolver } from '@hookform/resolvers/zod';
 import { ChevronDown, ChevronUp, Loader2, Plus, Trash2, VideoIcon, X } from 'lucide-react';
 import { useParams } from 'next/navigation'
-import React, { useEffect } from 'react'
+import React from 'react'
 import { Controller, useFieldArray, useForm } from 'react-hook-form';
 import { toast } from 'sonner';
 
